@@ -690,7 +690,7 @@ namespace Stop_Cheating
                 char temp = Detect_events();
                 hknum = hk.Detect_Hotkey(temp);
 
-
+                
                 Boolean isexist = false;
                 int mappingsize = mkmapping.Length / 2;
                 for (int i = 0; i < mappingsize; i++)
